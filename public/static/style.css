@@ -34,7 +34,7 @@ h4 {
   margin-bottom: 45px;
 }
 
-input[type="text"], input[type="email"], select {
+input[type="text"], input[type="email"], input[type="password"], select {
   padding: 10px 15px;
   border: 1px solid #888;
   border-radius: 3px;
@@ -61,6 +61,9 @@ input[disabled] {
 }
 .right {
   text-align: right;
+}
+.error {
+  color: #FF5722;
 }
 .button {
   background: #f9b200;
@@ -177,6 +180,21 @@ input[disabled] {
   .pg-page.pg-selected {
     text-decoration: underline;
     font-weight: bold;
+  }
+
+.login .submit {
+  margin-top: 20px;
+}
+  .login button {
+    width: 100%;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .login button img {
+    max-width: 24px;
+    margin-right: 10px;
   }
 
 #btn-back {
